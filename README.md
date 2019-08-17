@@ -11,8 +11,10 @@ gradually unfolding until it finds its optimal structure.
 **Bottom Left**: Graph of f(x)=x^2 (mod 86).
 </div>
 
+<p align="center">
 <img src="https://user-images.githubusercontent.com/22968625/63206552-6c266500-c06b-11e9-9430-7a214a055386.jpeg" 
 height="600" class="center">
+ </p>
 
 ## How to use it
 ```Python
@@ -29,6 +31,9 @@ run_graph(function, mod, name="graph", show=True, filename=-1, wait=False)
 ```Python
 run_graph(lambda x: tetration(x, 2, 87), 87, name="graph")
 ```
-
+<p align="center">
 <img src="https://user-images.githubusercontent.com/22968625/63206598-c2e06e80-c06c-11e9-9b75-bab01290cf12.jpg" 
 height="400" class="center">
+</p>
+
+Other parameters are available as global variables (for instance, setting do_numbers to True will cause the program to print numbers on top of the graph's nodes)
