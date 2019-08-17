@@ -36,4 +36,4 @@ run_graph(lambda x: tetration(x, 2, 87), 87, name="graph")
 height="400" class="center">
 </p>
 
-Other parameters are available as global variables (for instance, setting do_numbers to True will cause the program to print numbers on top of the graph's nodes)
+Other parameters are available for specification as global variables (for instance, setting do_numbers to True will cause the program to print numbers on top of the graph's nodes).
