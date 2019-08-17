@@ -27,5 +27,8 @@ run_graph(function, mod, name="graph", show=True, filename=-1, wait=False)
 
 ### Example:
 ```Python
-run_graph(function, mod, name="graph", show=True, filename=-1, wait=False)
+run_graph(lambda x: tetration(x, 2, 87), 87, name="graph")
 ```
+
+<img src="https://user-images.githubusercontent.com/22968625/63206598-c2e06e80-c06c-11e9-9b75-bab01290cf12.jpg" 
+height="400" class="center">
