@@ -1,5 +1,5 @@
 # Auto-Grapher
-A Python program that auto-generates bidirected graphs, provided a function specifying node-to-node connections.
+A Python program that auto-generates bidirected graphs, provided a function specifying node-to-node connections. It accomplishes this by treating each node in the graph as a point mass and each line as a spring, and simulating the physical forces of drag and tension.
 
 <div>
 <img src="https://user-images.githubusercontent.com/22968625/63206296-beb15280-c066-11e9-868d-c59a51440ccb.jpeg" 
